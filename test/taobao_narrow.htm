@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+<style>
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	color:#333333;
+	font:12px/1.5 '微软雅黑',Helvetica,Arial,sans-serif;
+}
+
+
+input.txt {
+	height:19px;
+	padding:3px 0 0 2px;
+	vertical-align:middle;
+	width:256px;
+	border:1px solid #DDDDDD;
+}
+input, button, textarea, select, optgroup, option {
+	font-family:'微软雅黑',Helvetica,Arial,sans-serif;
+	font-size:12px;
+	font-style:inherit;
+	font-weight:inherit;
+}
+
+.btn {
+	background:url("/static/nav/images/taobao_button.gif") no-repeat;
+	border:0 none;
+	font-size:14px;
+	height:32px;
+	overflow:visible;
+	vertical-align:middle;
+	width:80px;
+	margin:5px 0 0 6px;
+}
+.search-form {
+	height:27px;
+	border:1px solid #D3D3D3;
+	padding:3px 4px 0;
+	margin:5px 0 0 5px;
+	float:left;
+}
+</style>
+<!--[if IE]>
+<style>
+input.txt { width:240px; }
+</style>
+<![endif]-->
+</head>
+<body>
+<form name="form1" method="get" action="taobao_rdr_all.html" onsubmit="return window.top.MONAV.Search.onFrameSubmit();" target="_blank">
+   	<div class="search-form">
+   		<input name="keyword" id="q" class="txt" onkeyup="window.top.MONAV.Search.setKey(this.value);" type="text">
+   	</div>
+   	<input class="btn" value="" type="submit">
+</form>
+
+
+</body></html>

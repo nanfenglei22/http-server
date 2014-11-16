@@ -1,0 +1,2 @@
+---- epoll errors! Æ¥Åä (1 in 1 ÎÄ¼þ) ----
+Epoll.cpp (z:\epoll\src):						perror("epoll errors!");

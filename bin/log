@@ -1,0 +1,161 @@
+		***********************************************
+		   >(~_~)< Hello, this is a epoll test!!!
+		           listen port is on  8124 !!!
+		***********************************************
+src/http_connection.cpp	649	Request Contents:
+GET /index.html HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Accept-Encoding: gzip, deflate
+Host: 192.168.52.128:8124
+Connection: Keep-Alive
+
+
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	GET /index.html HTTP/1.1
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept: text/html, application/xhtml+xml, */*
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept-Language: zh-CN
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept-Encoding: gzip, deflate
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Host: 192.168.52.128:8124
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Connection: Keep-Alive
+src/http_connection.cpp	1435
+o_pcn->filereq=/index.html   o_pcn->actualfile=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/index.html    o_pcn->default_dir=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp  isdir   1410  i_pbuf=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/index.html
+src/http_connection.cpp	1443	build_actual_file	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/index.html is file
+[build_actual_file]----[1453]-------o_pcn->filereq=/index.html---o_pcn->dirname=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp	260	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/index.html
+src/http_connection.cpp  isdir   1410  i_pbuf=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/index.html
+src/http_connection.cpp	649	Request Contents:
+GET /favicon.ico HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Host: 192.168.52.128:8124
+Connection: Keep-Alive
+
+
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	GET /favicon.ico HTTP/1.1
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept: */*
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept-Encoding: gzip, deflate
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Host: 192.168.52.128:8124
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Connection: Keep-Alive
+src/http_connection.cpp	1435
+o_pcn->filereq=/favicon.ico   o_pcn->actualfile=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico    o_pcn->default_dir=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp  isdir   1410  i_pbuf=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp	1443	build_actual_file	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico is file
+[build_actual_file]----[1453]-------o_pcn->filereq=/favicon.ico---o_pcn->dirname=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp	260	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp  isdir   1410  i_pbuf=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+events[i].events & PURE_EPOLLRDHUP
+events[i].events & PURE_EPOLLRDHUP
+src/http_connection.cpp	649	Request Contents:
+GET /favicon.ico HTTP/1.1
+Host: 192.168.52.128:8124
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	GET /favicon.ico HTTP/1.1
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Host: 192.168.52.128:8124
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Connection: keep-alive
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept-Encoding: gzip,deflate,sdch
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept-Language: zh-CN,zh;q=0.8
+src/http_connection.cpp	1435
+o_pcn->filereq=/favicon.ico   o_pcn->actualfile=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico    o_pcn->default_dir=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp  isdir   1410  i_pbuf=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp	1443	build_actual_file	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico is file
+[build_actual_file]----[1453]-------o_pcn->filereq=/favicon.ico---o_pcn->dirname=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp	260	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp  isdir   1410  i_pbuf=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp	649	Request Contents:
+GET /favicon.ico HTTP/1.1
+Host: 192.168.52.128:8124
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	GET /favicon.ico HTTP/1.1
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Host: 192.168.52.128:8124
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Connection: keep-alive
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept-Encoding: gzip,deflate,sdch
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept-Language: zh-CN,zh;q=0.8
+src/http_connection.cpp	1435
+o_pcn->filereq=/favicon.ico   o_pcn->actualfile=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico    o_pcn->default_dir=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp  isdir   1410  i_pbuf=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp	1443	build_actual_file	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico is file
+[build_actual_file]----[1453]-------o_pcn->filereq=/favicon.ico---o_pcn->dirname=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp	260	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp  isdir   1410  i_pbuf=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp	649	Request Contents:
+GET /favicon.ico HTTP/1.1
+Host: 192.168.52.128:8124
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	GET /favicon.ico HTTP/1.1
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Host: 192.168.52.128:8124
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Connection: keep-alive
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept-Encoding: gzip,deflate,sdch
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept-Language: zh-CN,zh;q=0.8
+src/http_connection.cpp	1435
+o_pcn->filereq=/favicon.ico   o_pcn->actualfile=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico    o_pcn->default_dir=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp  isdir   1410  i_pbuf=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp	1443	build_actual_file	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico is file
+[build_actual_file]----[1453]-------o_pcn->filereq=/favicon.ico---o_pcn->dirname=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp	260	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp  isdir   1410  i_pbuf=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp	649	Request Contents:
+GET /favicon.ico HTTP/1.1
+Host: 192.168.52.128:8124
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	GET /favicon.ico HTTP/1.1
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Host: 192.168.52.128:8124
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Connection: keep-alive
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept-Encoding: gzip,deflate,sdch
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept-Language: zh-CN,zh;q=0.8
+src/http_connection.cpp	1435
+o_pcn->filereq=/favicon.ico   o_pcn->actualfile=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico    o_pcn->default_dir=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp  isdir   1410  i_pbuf=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp	1443	build_actual_file	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico is file
+[build_actual_file]----[1453]-------o_pcn->filereq=/favicon.ico---o_pcn->dirname=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp	260	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp  isdir   1410  i_pbuf=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp	649	Request Contents:
+GET /favicon.ico HTTP/1.1
+Host: 192.168.52.128:8124
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	GET /favicon.ico HTTP/1.1
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Host: 192.168.52.128:8124
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Connection: keep-alive
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept-Encoding: gzip,deflate,sdch
+FILE:src/http_connection.cpp	func:head_elem	LINE:1261	Accept-Language: zh-CN,zh;q=0.8
+src/http_connection.cpp	1435
+o_pcn->filereq=/favicon.ico   o_pcn->actualfile=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico    o_pcn->default_dir=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp  isdir   1410  i_pbuf=/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico
+src/http_connection.cpp	1443	build_actual_file	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico is file
+[build_actual_file]----[1453]-------o_pcn->filereq=/favicon.ico---o_pcn->dirname=/home/lizhiming/study/c++/network/httpserver/http-epoll/test
+src/http_connection.cpp	260	/home/lizhiming/study/c++/network/httpserver/http-epoll/test/favicon.ico

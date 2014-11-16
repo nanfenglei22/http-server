@@ -1,0 +1,80 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CHttpServer	./http_server.cpp	/^CHttpServer::CHttpServer()$/;"	f	class:CHttpServer
+CHttp_connection	./http_connection.cpp	/^CHttp_connection::CHttp_connection()$/;"	f	class:CHttp_connection
+addto_servers	./http_server.cpp	/^void CHttpServer::addto_servers(s32 i_sd) $/;"	f	class:CHttpServer
+build_actual_file	./http_connection.cpp	/^void CHttp_connection::build_actual_file(CON_S *o_pcn)$/;"	f	class:CHttp_connection
+connect_handle_error	./http_connection.cpp	/^s32 CHttp_connection::connect_handle_error()$/;"	f	class:CHttp_connection
+connect_handle_init	./http_connection.cpp	/^s32 CHttp_connection::connect_handle_init() $/;"	f	class:CHttp_connection
+connect_handle_read	./http_connection.cpp	/^s32 CHttp_connection::connect_handle_read() $/;"	f	class:CHttp_connection
+connect_handle_write	./http_connection.cpp	/^s32 CHttp_connection::connect_handle_write()$/;"	f	class:CHttp_connection
+connect_read	./base_connect.cpp	/^s32 connection::connect_read(s8* buf, u32 buf_len, u32 flag)$/;"	f	class:pure_baselib::connection
+connect_read	./http_connection.cpp	/^s32 CHttp_connection::connect_read(s8* buf, u32 buf_len, u32 flag)$/;"	f	class:CHttp_connection
+connect_sendfile	./base_connect.cpp	/^s32 connection::connect_sendfile(s32 file_fd, off_t *offset, size_t size, u32 flag)$/;"	f	class:pure_baselib::connection
+connect_sendfile	./http_connection.cpp	/^ s32 CHttp_connection::connect_sendfile(s32 file_fd, off_t *offset, size_t size, u32 flag)$/;"	f	class:CHttp_connection
+connect_write	./base_connect.cpp	/^s32 connection::connect_write(s8* buf, u32 buf_len, u32 flag)$/;"	f	class:pure_baselib::connection
+connect_write	./http_connection.cpp	/^ s32 CHttp_connection::connect_write(s8* buf, u32 buf_len, u32 flag)$/;"	f	class:CHttp_connection
+creat_send_option	./http_connection.cpp	/^s32 CHttp_connection::creat_send_option(s8* buf, u32 buf_len, u32 res_type,u32 flag)$/;"	f	class:CHttp_connection
+day_mon_map_compare	./http_connection.cpp	/^s32 CHttp_connection::day_mon_map_compare(const s8 *i_pv1, const s8 *i_pv2)$/;"	f	class:CHttp_connection
+day_mon_map_search	./http_connection.cpp	/^s8 CHttp_connection::day_mon_map_search(const s8* i_pstr,const DMM_S* i_ptab, s32 n)$/;"	f	class:CHttp_connection
+dir_listing	./http_connection.cpp	/^void CHttp_connection::dir_listing(CON_S *o_pcn)$/;"	f	class:CHttp_connection
+get_cons	./http_connection.cpp	/^CON_S *CHttp_connection::get_cons()$/;"	f	class:CHttp_connection
+get_field	./http_connection.cpp	/^s32 CHttp_connection::get_field(s8 *i_pfindbuf,s8 *i_phead_str, s8 *i_tail_str, s32 i_total_len,s32 o_pos,s32 &i_lastpos, s8 *o_ptbuf)  $/;"	f	class:CHttp_connection
+get_mime_type	./http_connection.cpp	/^const s8* CHttp_connection::get_mime_type(const s8 *i_pname)$/;"	f	class:CHttp_connection
+head_elem	./http_connection.cpp	/^s32 CHttp_connection::head_elem(CON_S *o_pcn, s8 *i_pbuf) $/;"	f	class:CHttp_connection
+hex_it	./http_connection.cpp	/^s32 CHttp_connection::hex_it(s8 c) $/;"	f	class:CHttp_connection
+http_read_file	./http_connection.cpp	/^void CHttp_connection::http_read_file(CON_S *o_pcn) $/;"	f	class:CHttp_connection
+http_read_head	./http_connection.cpp	/^void CHttp_connection::http_read_head(CON_S *o_pcn) $/;"	f	class:CHttp_connection
+http_send_file	./http_connection.cpp	/^void CHttp_connection::http_send_file(CON_S *o_pcn) $/;"	f	class:CHttp_connection
+http_send_head	./http_connection.cpp	/^void CHttp_connection::http_send_head(CON_S *o_pcn) $/;"	f	class:CHttp_connection
+http_send_response	./http_connection.cpp	/^s32 CHttp_connection::http_send_response(s8* buf, u32 buf_len, u32 res_type,u32 flag)$/;"	f	class:CHttp_connection
+http_sendfile	./http_connection.cpp	/^size_t CHttp_connection::http_sendfile(CON_S *o_pcn)$/;"	f	class:CHttp_connection
+isdir	./http_connection.cpp	/^s32 CHttp_connection::isdir(const s8 *i_pbuf) $/;"	f	class:CHttp_connection
+main	./epoll_main.cpp	/^s32 main(s32 argc, s8* argv[])$/;"	f
+mon_tab	./http_connection.cpp	/^DMM_S mon_tab[] = $/;"	v
+mon_tab1	./http_server.cpp	/^DMM_S mon_tab1[] = $/;"	v
+my_GetAllRequest	./epoll.cpp	/^    int pure_epoll::my_GetAllRequest(base_socket *sock,  pure_epoll_event events[], int i){$/;"	f	class:pure_baselib::pure_epoll
+my_HandleAllRequest	./epoll.cpp	/^    void pure_epoll::my_HandleAllRequest() {$/;"	f	class:pure_baselib::pure_epoll
+my_HandleNewConnect	./epoll.cpp	/^    int pure_epoll::my_HandleNewConnect(base_socket *sock, s32 &connfd, socket_addr &client_addr, u32 &length)  {$/;"	f	class:pure_baselib::pure_epoll
+my_epoll_wait	./epoll.cpp	/^    s32 pure_epoll::my_epoll_wait(s32 epfd, pure_epoll_event events[], s32 timeout) {$/;"	f	class:pure_baselib::pure_epoll
+my_strncpy	./http_connection.cpp	/^s8 * CHttp_connection::my_strncpy(s8 *o_pdest, const s8 *i_psrc, size_t n) $/;"	f	class:CHttp_connection
+open_listen	./http_server.cpp	/^s32 CHttpServer::open_listen(s32 i_port)$/;"	f	class:CHttpServer
+pure_baselib	./base_connect.cpp	/^namespace pure_baselib$/;"	n	file:
+pure_baselib	./epoll.cpp	/^namespace pure_baselib$/;"	n	file:
+pure_epoll	./epoll.cpp	/^	pure_epoll::pure_epoll() : ev_tail(&ev_head)$/;"	f	class:pure_baselib::pure_epoll
+pure_epoll_create	./epoll.cpp	/^	s32 pure_epoll::pure_epoll_create(s32 max_fds)$/;"	f	class:pure_baselib::pure_epoll
+pure_epoll_ctl	./epoll.cpp	/^	s32 pure_epoll::pure_epoll_ctl(s32 epfd, s32 opt, s32 fd, pure_epoll_event *ev)$/;"	f	class:pure_baselib::pure_epoll
+pure_epoll_event_add	./epoll.cpp	/^	s32 pure_epoll::pure_epoll_event_add(pure_epoll_event_queue *event)$/;"	f	class:pure_baselib::pure_epoll
+pure_epoll_event_del	./epoll.cpp	/^	s32 pure_epoll::pure_epoll_event_del(connection *con)$/;"	f	class:pure_baselib::pure_epoll
+pure_epoll_event_destroy	./epoll.cpp	/^	s32 pure_epoll::pure_epoll_event_destroy(void)$/;"	f	class:pure_baselib::pure_epoll
+pure_epoll_process	./epoll.cpp	/^	s32 pure_epoll::pure_epoll_process(s32 timeout)$/;"	f	class:pure_baselib::pure_epoll
+pure_epoll_pwait	./epoll.cpp	/^	s32 pure_epoll::pure_epoll_pwait(s32 epfd, pure_epoll_event *events, s32 max_events, s32 timeout, __sigset_t *sigmask)$/;"	f	class:pure_baselib::pure_epoll
+pure_epoll_sockfd_regesiter	./epoll.cpp	/^	s32 pure_epoll::pure_epoll_sockfd_regesiter(base_socket *sock)$/;"	f	class:pure_baselib::pure_epoll
+pure_poll_wait	./epoll.cpp	/^	s32 pure_epoll::pure_poll_wait(s32 epfd, pure_epoll_event *events, s32 max_events, s32 timeout)$/;"	f	class:pure_baselib::pure_epoll
+remove_connection	./http_server.cpp	/^void CHttpServer::remove_connection(CON_S *o_pcn) $/;"	f	class:CHttpServer
+sanitize_file	./http_connection.cpp	/^s32 CHttp_connection::sanitize_file(const s8 *i_pbuf) $/;"	f	class:CHttp_connection
+sanitize_host	./http_connection.cpp	/^s32 CHttp_connection::sanitize_host(s8 *i_pbuf)$/;"	f	class:CHttp_connection
+send_error	./http_connection.cpp	/^void CHttp_connection::send_error(CON_S *o_pcn, s32 i_err)$/;"	f	class:CHttp_connection
+server_connect_create	./http_server.cpp	/^connection *CHttpServer::server_connect_create(s32 connfd)$/;"	f	class:CHttpServer
+server_connect_delete	./http_server.cpp	/^bool CHttpServer::server_connect_delete(connection *con)$/;"	f	class:CHttpServer
+server_connect_destroy	./http_server.cpp	/^bool CHttpServer::server_connect_destroy(void)$/;"	f	class:CHttpServer
+server_sockfd_bind	./http_server.cpp	/^s32 CHttpServer::server_sockfd_bind(socket_addr *addr, u32 addr_len)$/;"	f	class:CHttpServer
+server_sockfd_create	./http_server.cpp	/^s32 CHttpServer::server_sockfd_create(void)$/;"	f	class:CHttpServer
+server_sockfd_listen	./http_server.cpp	/^s32 CHttpServer::server_sockfd_listen(s32 listen_num)$/;"	f	class:CHttpServer
+set_nonblocking	./http_server.cpp	/^s32 CHttpServer::set_nonblocking(s32 i_sock)$/;"	f	class:CHttpServer
+show_main_dir	./http_connection.cpp	/^void CHttp_connection::show_main_dir(CON_S *o_pcn) $/;"	f	class:CHttp_connection
+special_read	./http_connection.cpp	/^s32 CHttp_connection::special_read(CON_S *o_pcn, void *i_pbuf, size_t i_count)$/;"	f	class:CHttp_connection
+special_write	./http_connection.cpp	/^s32 CHttp_connection::special_write(CON_S *o_pcn,const s8 *i_pbuf, size_t i_count)$/;"	f	class:CHttp_connection
+tdate_init	./http_connection.cpp	/^void CHttp_connection::tdate_init(void)$/;"	f	class:CHttp_connection
+tdate_parse	./http_connection.cpp	/^time_t CHttp_connection::tdate_parse(const s8* i_pstr)$/;"	f	class:CHttp_connection
+type	./http_connection.cpp	28;"	d	file:
+url_decode	./http_connection.cpp	/^void CHttp_connection::url_decode(s8 *i_pbuf) $/;"	f	class:CHttp_connection
+url_encode	./http_connection.cpp	/^void CHttp_connection::url_encode(const u8 *i_ps, s8 *o_pt) $/;"	f	class:CHttp_connection
+wday_tab1	./http_server.cpp	/^DMM_S wday_tab1[] = $/;"	v
+~CHttpServer	./http_server.cpp	/^CHttpServer::~CHttpServer()$/;"	f	class:CHttpServer
+~CHttp_connection	./http_connection.cpp	/^CHttp_connection::~CHttp_connection()$/;"	f	class:CHttp_connection
+~pure_epoll	./epoll.cpp	/^	pure_epoll::~pure_epoll()$/;"	f	class:pure_baselib::pure_epoll

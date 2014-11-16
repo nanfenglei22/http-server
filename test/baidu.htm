@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	color:#333333;
+	font:12px/1.5 '微软雅黑',Helvetica,Arial,sans-serif;
+}
+
+
+input.txt {
+	padding:5px 2px;
+	vertical-align:middle;
+	width:356px;
+	border:1px solid #DDDDDD;
+}
+input, button, textarea, select, optgroup, option {
+	font-family:'微软雅黑',Helvetica,Arial,sans-serif;
+	font-size:12px;
+	font-style:inherit;
+	font-weight:inherit;
+}
+
+.btn {
+	background-position:0 -1px;
+	border:1px solid #CCCCCC;
+	font-size:14px;
+	height:29px;
+	overflow:visible;
+	vertical-align:middle;
+	width:100px;
+	background:url("images/gbg.png") repeat-x scroll 0 0 transparent;
+	padding-bottom:4px;
+}
+</style>
+</head>
+<body>
+<!--the form action may be baidu_rdr.html-->
+<form name="form1" method="get" action="http://i.g-fox.cn/s" onsubmit="return window.top.MONAV.Search.onFrameSubmit();" target="_blank">
+       <input name="q" id="q" class="txt" onkeyup="window.top.MONAV.Search.setKey(this.value);" type="text">
+       <input value="baidu_web" name="engine" type="hidden">
+	<input class="btn" value="百度" type="submit">
+</form>
+
+
+</body></html>
